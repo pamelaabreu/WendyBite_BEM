@@ -1,0 +1,14 @@
+body{
+    /* background-image: linear-gradient( #e66465, #9198e5); */
+    background-color: whitesmoke;
+}
+
+.name{
+    font-family: 'VT323', monospace;
+    color: whitesmoke;
+    font-size: 500%;
+}
+
+.pamGif{
+    width: 500px;
+}

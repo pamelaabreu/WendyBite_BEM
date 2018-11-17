@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    /* min-height: 100%; */
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+}
+
+.halfPage{
+    box-sizing: border-box;
+    width: calc(100% - 10%); 
+    margin: 5% auto; 
+    border-width: 5px;
+    border: 5px solid #777777;
+    padding: 5%;
+    clear: left;
+    overflow: auto;
+}
+
+section{
+    width: 75%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.name{
+    color: whitesmoke;
+    font-family: 'Arima Madurai', cursive, Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    font-style: italic;
+    text-align: center;
+}
+
+a{
+    color: #33CD94;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0em .5em;
+}
+
+a:hover {
+    color:white;
+}
+
+a:focus:active { 
+    color:white;
+}
+
+.nav .current{
+    color:white;
+}
+
+table.center{
+    float: none;
+    margin-left:auto; 
+    margin-right:auto;
+    padding: 2%;
+}
+
+th{
+    border-right:2px solid #777777;
+    /* padding: 0% 3% 0%; */
+}
+
+th.lastTH{
+    border: none;
+}
+
+hr{
+    display: block;
+    border: 1px solid #777777;
+}
+
+.boldHeadingSection{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.about_section{
+    clear: left;
+    overflow: auto;
+}
+
+.boldRelevantExperience{
+    padding: 5% 0px 2% 0px;
+    color: #BABABA;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+p{
+    color: white;
+    line-height: 1.5em;
+    float:none;
+
+    /* display: inline-block; */
+    /* vertical-align:top; */
+}
+
+.wendyImg{
+    float: right;
+    margin: 3%;
+    border: 1px solid #777777;
+    padding: 1%;
+    width: 274.14px;
+    height: 312.16px;
+    object-fit: cover;
+
+    /* display: inline-block; */
+    /* vertical-align:top; */
+    /* float: inline-end; */
+}
+
+ul{
+    color: white;
+}
+
+.listSpacing{
+    padding: 0 0 10px;
+}
+
+
+h4{
+    color: white;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    color: #edeaea;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h6{
+    color: #d1cfcf;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+span{
+    display: inline-block;
+    color: #d1cfcf;
+    line-height: 1.5em;
+    padding: 0 0 20px;
+}
